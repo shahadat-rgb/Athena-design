@@ -14,6 +14,7 @@
   border-radius: 15px 0px 20px 0px;
   background-image: linear-gradient(125deg, #16cbca, #2ebceb);
   padding: 8px 20px;
+  border: 0px;
 }
 
 .contact-button:hover {

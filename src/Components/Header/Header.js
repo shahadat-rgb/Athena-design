@@ -5,8 +5,9 @@ const Header = () => {
   return (
     <div className="container header">
       <div className="row">
-        <div className="col-md-6 col-lg-6 col-sm-12">
-          <h1>
+        <div className="col-md-6 col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+         <div>
+         <h1>
             Florence <br /> agency
           </h1>
           <p>
@@ -17,6 +18,7 @@ const Header = () => {
           <button className="btn contact-button pricing-button">
             See Pricing
           </button>
+         </div>
         </div>
         <div className="col-md-6 col-lg-6 col-sm-12">
           <img src={banner} alt="" className="img-fluid banner-btn" />

@@ -16,9 +16,7 @@ const RunningProjects = () => {
               ipsum sunt nostrum labore officiis a, quisquam odio vero debitis,
               cumque sed quasi numquam, sint tempore perferendis?
             </p>
-            <button className="btn contact-button contact-button">
-              Contact Us
-            </button>
+            <button className="btn  contact-button">Contact Us</button>
           </div>
         </div>
       </div>
