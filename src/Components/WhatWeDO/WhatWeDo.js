@@ -7,7 +7,7 @@ import './WhatWeDo.css';
 
 const WhatWeDo = () => {
   return (
-    <section>
+    <section className="line">
       <div className="container mb-5">
         <div className="text-center">
           <h1> What we do</h1>
@@ -21,7 +21,7 @@ const WhatWeDo = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="card card-hover text-center">
-              <img src={img1} alt="" className="card-img-top img-fluid w-25" style={{margin: '0 auto'}} />
+              <img src={img1} alt="" className="card-img-top img-fluid w-50"  style={{margin: '0 auto'}} />
               <div className="card-body">
                 <h6 class="card-text" style={{ color: " #413960" }}>
                   Experience Design
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
           </div>
           <div className="col-md-3">
             <div className="card card-hover text-center">
-              <img src={img2} alt="" className="card-img-top img-fluid w-25" style={{margin: '0 auto'}} />
+              <img src={img2} alt="" className="card-img-top img-fluid w-50" style={{margin: '0 auto'}} />
               <div className="card-body">
                 <h6 class="card-text" style={{ color: " #413960" }}>
                   Interface Design
@@ -51,7 +51,7 @@ const WhatWeDo = () => {
           </div>
           <div className="col-md-3">
             <div className="card card-hover text-center">
-              <img src={img3} alt="" className="card-img-top img-fluid w-25" style={{margin: '0 auto'}} />
+              <img src={img3} alt="" className="card-img-top img-fluid w-50" style={{margin: '0 auto'}} />
               <div className="card-body">
                 <h6 class="card-text" style={{ color: " #413960" }}>
                 Prototyping
@@ -66,7 +66,7 @@ const WhatWeDo = () => {
           </div>
           <div className="col-md-3">
             <div className="card card-hover text-center">
-              <img src={img4} alt="" className="card-img-top img-fluid w-25" style={{margin: '0 auto'}} />
+              <img src={img4} alt="" className="card-img-top img-fluid w-50" style={{margin: '0 auto'}} />
               <div className="card-body">
                 <h6 class="card-text" style={{ color: " #413960" }}>
                 Illustration

@@ -4,4 +4,12 @@
 .running {
   margin-top: 30px;
   margin-bottom: 60px;
+  
+
+}
+
+section{
+  background: url("../../images/Group\ 46@2x.png");
+  background-repeat: no-repeat;
+  background-position: top right;
 }

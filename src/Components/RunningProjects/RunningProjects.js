@@ -3,8 +3,9 @@ import projects from "../../images/20 [Converted]@2x.png";
 import "./RunningProjects.css";
 const RunningProjects = () => {
   return (
-    <div className="container running">
-      <div className="row">
+    <section>
+      <div className="container running">
+      <div className="row projects">
         <div className="col-md-6 col-lg-6 col-sm-12">
           <img src={projects} alt="" className="img-fluid project-btn" />
         </div>
@@ -21,6 +22,7 @@ const RunningProjects = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
