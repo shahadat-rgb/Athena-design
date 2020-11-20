@@ -1,12 +1,12 @@
 import React from 'react';
-import './OurWork.css'
-import group65 from "../../../Illustration/Group 65@2x.png"
-import group66 from "../../../Illustration/Group 66@2x.png"
-import group67 from "../../../Illustration/Group 67@2x.png"
-import group68 from "../../../Illustration/Group 68@2x.png"
+import './OurWork.css';
+import group65 from "../../../Illustration/Group 65@2x.png";
+import group66 from "../../../Illustration/Group 66@2x.png";
+import group67 from "../../../Illustration/Group 67@2x.png";
+import group68 from "../../../Illustration/Group 68@2x.png";
 const OurWork = () => {
     return (
-      <div className="work-background background">                                                                                                                                                                                                ">
+      <div className="work-background background">                                                                                                                                                                                
             <div className='container text-center' style={{paddingBottom:'70px'}}>
             <h2 className='pt-5 pb-3'>What we do</h2>
             <p className='text-secondary'>Our main focus is to make the User Experience very</p>

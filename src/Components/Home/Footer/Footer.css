@@ -1,0 +1,21 @@
+.search-btn{
+position: absolute;
+top: 0;
+right: 15px;
+height: 100%;
+}
+#query{
+   
+}
+
+.btn-rounded {
+    /* border-radius: 25px; */
+    background-image: linear-gradient(to right ,rgba(150, 221, 165, 0.938) 0%,rgba(13, 209, 243, 0.945) 100%);
+    border: none;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+.icon img{
+    height: 25px;
+   margin: 10px;
+}
