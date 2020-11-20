@@ -12,22 +12,23 @@ const DedicatedTeam = () => {
               <p className='text-secondary'>For Elite</p>
               <hr />
               <p>Homepage </p>
-              <p>No Inner Page </p>
+              <p>8 Inner Page </p>
               <p>Asset ﬁle</p>
               <p>Source ﬁle </p>
               <p>Free Stock Photos </p>
               <p>10 Days Free Support</p>
               <p>24/7 Support</p>
+              <button className="contact-btn">Order Now</button>
             </div>
           </div>
 
           <div class="card">
             <div class="card-body">
               <h2 class="card-title">$399</h2>
-              <p className='text-secondary'>For preparred</p>
+              <p className='text-secondary'>For prepared</p>
               <br/>
               <p>Homepage </p>
-              <p>No Inner Page </p>
+              <p>4 Inner Page </p>
               <p>Asset ﬁle</p>
               <p>Source ﬁle </p>
               <p>Free Stock Photos </p>
@@ -49,6 +50,7 @@ const DedicatedTeam = () => {
               <p>Free Stock Photos </p>
               <p>10 Days Free Support</p>
               <p>24/7 Support</p>
+              <button className="contact-btn">Order Now</button>
             </div>
           </div>
         </div>
