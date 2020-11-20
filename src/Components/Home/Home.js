@@ -1,28 +1,19 @@
-import React from "react";
-import Achievements from "../Achievements/Achievements";
-import Footer from "../Footer/Footer";
-import GetDesign from "../GetDesign/GetDesign";
-import HeaderMain from "../HeaderMain/HeaderMain";
+import React from 'react';
+import HeaderMain from './HeaderMain/HeaderMain';
+import LastThreeSection from './LastThreeSection/LastThreeSection';
+import OurWork from './OurWork/OurWork';
+import RunningProjects from './RunningProjects/RunningProjects';
 
-import RunningProjects from "../RunningProjects/RunningProjects";
-import Team from "../Team/Team";
-import WhatWeDo from "../WhatWeDO/WhatWeDo";
-import "./Home.css";
 
 const Home = () => {
-  return (
-    <div className="home">
-     {/*  <Navbar></Navbar>
-      <Header></Header> */}
+    return (
+     <div>
       <HeaderMain></HeaderMain>
-      <WhatWeDo></WhatWeDo>
+      <OurWork></OurWork>
       <RunningProjects></RunningProjects>
-      <Achievements></Achievements>
-      <Team></Team>
-      <GetDesign></GetDesign>
-      <Footer></Footer>
+      <LastThreeSection></LastThreeSection>
     </div>
-  );
+    );
 };
 
 export default Home;

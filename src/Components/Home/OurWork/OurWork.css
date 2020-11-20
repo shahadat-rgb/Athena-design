@@ -1,0 +1,20 @@
+.work-background{
+    background-color: rgba(127, 255, 212, 0.082)
+}
+.work-radius{
+padding: 30px;
+}
+.work-radius:hover{
+    box-shadow: 10px 25px 50px rgba(34, 36, 35, 0.13);
+    padding: 30px;
+    background-color: white;
+    border-radius:80px 0px 80px 0px;
+    cursor: pointer;
+}
+.background{
+    background-image: url(../../../background/background3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+
+}
