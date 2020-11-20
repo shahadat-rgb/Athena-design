@@ -1,10 +1,11 @@
+const { default: Home } = require("./Components/Home/Home");
 
-import Home from './Components/Home/Home';
+
 
 function App() {
   return (
     <div className="App">
-    <Home></Home>
+      <Home></Home>
     </div>
   );
 }
