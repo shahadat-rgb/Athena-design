@@ -11,7 +11,7 @@ const Team = () => {
             <div className="card">
               <h1>$199</h1>
               <h6>For Basic</h6>
-              <hr />
+              <hr className="team-hr"/>
               <h6>Home Page</h6>
               <h6>No inner page</h6>
               <h6>Asset File</h6>
@@ -26,7 +26,7 @@ const Team = () => {
             <div className="card">
               <h1>$399</h1>
               <h6>For preferred</h6>
-              <hr />
+              <hr className="team-hr"/>
               <h6>Home Page</h6>
               <h6>4 inner page</h6>
               <h6>Asset File</h6>
@@ -41,7 +41,7 @@ const Team = () => {
             <div className="card">
               <h1>$599</h1>
               <h6>For Elite</h6>
-              <hr />
+              <hr className="team-hr"/>
               <h6>Home Page</h6>
               <h6>8 inner page</h6>
               <h6>Asset File</h6>

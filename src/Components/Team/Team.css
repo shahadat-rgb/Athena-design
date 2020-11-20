@@ -8,3 +8,12 @@
   opacity: 0;
   transition: .3s;
 } */
+.team-hr {
+  width: 200px;
+  transition: all 0.5s ease;
+  background: #3cedce;
+}
+.card:hover .team-hr {
+  width: 0;
+  transition: all 0.5s ease;
+}
