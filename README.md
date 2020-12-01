@@ -1,6 +1,6 @@
 
 ## Athena Design
-**Project Features
+ *Project Features
 A fully responsive website.
 Different types of animation.
 Toggle button properly work. 
